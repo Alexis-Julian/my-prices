@@ -25,10 +25,11 @@ function Header() {
 const styles = StyleSheet.create({
 	container: {
 		height: 70,
-		backgroundColor: "yellow",
+		backgroundColor: "#efd735",
 		borderBottomWidth: 1,
 		borderColor: "gray",
 		paddingHorizontal: 10,
+
 		flexDirection: "row",
 		alignItems: "center",
 		gap: 10,

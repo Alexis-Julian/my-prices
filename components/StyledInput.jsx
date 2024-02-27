@@ -1,6 +1,6 @@
 import { TextInput, Image, View } from "react-native";
 import theme from "../theme/main";
-function StyledInput({ children, height, width }) {
+function StyledInput({ children, height, width, setText }) {
 	const sizes = { height: height, width: width };
 	return (
 		<View style={{ ...theme.input, ...sizes }}>
@@ -12,7 +12,10 @@ function StyledInput({ children, height, width }) {
 					marginHorizontal: 6,
 				}}
 			/>
-			<TextInput placeholder={children ? children : ""} />
+			<TextInput
+				placeholder={children ? children : ""}
+				onChangeText={(changeText) => setText(changeText)}
+			/>
 		</View>
 	);
 }

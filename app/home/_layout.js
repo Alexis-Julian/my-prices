@@ -7,7 +7,7 @@ import Header from "../../components/Header";
 function HomeLayout() {
 	return (
 		<>
-			<StatusBar style="light" backgroundColor="yellow" />
+			<StatusBar style="light" backgroundColor="#efd735" />
 			<View style={styles.container}>
 				<Header />
 				<Slot />
@@ -19,7 +19,6 @@ function HomeLayout() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		paddingTop: Constants.statusBarHeight,
 	},
 });
 export default HomeLayout;

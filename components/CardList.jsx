@@ -3,6 +3,7 @@ import data from "../data/products.json";
 import CardEcommerce from "./CardEcommerce";
 
 function ListCard() {
+	console.log("porbandoo");
 	return (
 		<FlatList
 			style={styles.container}
