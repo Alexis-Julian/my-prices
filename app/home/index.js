@@ -1,7 +1,7 @@
 import { Text, View, StyleSheet, ActivityIndicator } from "react-native";
 import { useEffect, useState } from "react";
 import { Link } from "expo-router";
-import CardList from "../components/CardList";
+import CardList from "../../components/CardList";
 
 export default function Page() {
 	const [useProducts, setProducts] = useState();

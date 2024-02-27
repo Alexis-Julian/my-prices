@@ -3,7 +3,7 @@ import { View, StyleSheet } from "react-native";
 import Constants from "expo-constants";
 import { StatusBar } from "expo-status-bar";
 
-import Header from "../components/Header";
+import Header from "../../components/Header";
 function HomeLayout() {
 	return (
 		<>

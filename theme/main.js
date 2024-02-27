@@ -7,6 +7,14 @@ const theme = {
 		Tertiary: "#ECB159",
 		Quaternary: "#B67352",
 	},
+	input: {
+		backgroundColor: "white",
+		paddingVertical: 8,
+		borderRadius: 50,
+		backgroundColor: "white",
+		flexDirection: "row",
+		alignItems: "center",
+	},
 	text: {
 		capitalize: "capitalize",
 	},
